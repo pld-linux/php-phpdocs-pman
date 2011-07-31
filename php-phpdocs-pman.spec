@@ -4,7 +4,7 @@
 Summary:	%{pearname} - PHP Unix manual pages
 Name:		php-phpdocs-pman
 Version:	2011.06.25
-Release:	2
+Release:	3
 License:	Creative Commons Attribution 3.0
 Group:		Development/Languages/PHP
 Source0:	http://doc.php.net/get/%{pearname}-%{version}.tgz
@@ -32,7 +32,7 @@ In PEAR status of this package is: %{status}.
 %pear_package_setup -d doc_dir=%{_phpdocdir}
 
 cat <<'EOF' >.%{_bindir}/pman
-!/bin/sh
+#!/bin/sh
 exec %{_bindir}/man -M %{_phpdocdir}/pman "$@"
 EOF
 
