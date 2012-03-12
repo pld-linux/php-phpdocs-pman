@@ -4,7 +4,7 @@
 Summary:	%{pearname} - PHP Unix manual pages
 Name:		php-phpdocs-pman
 Version:	2011.06.25
-Release:	3
+Release:	4
 License:	Creative Commons Attribution 3.0
 Group:		Development/Languages/PHP
 Source0:	http://doc.php.net/get/%{pearname}-%{version}.tgz
@@ -15,7 +15,7 @@ BuildRequires:	php-packagexml2cl
 BuildRequires:	php-pear-PEAR
 BuildRequires:	rpm-php-pearprov >= 4.4.2-11
 BuildRequires:	rpmbuild(macros) >= 1.580
-Requires:	man
+Requires:	man-db
 Requires:	php-channel(doc.php.net)
 Requires:	php-pear
 BuildArch:	noarch
