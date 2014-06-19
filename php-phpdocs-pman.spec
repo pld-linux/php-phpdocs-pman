@@ -3,12 +3,12 @@
 %include	/usr/lib/rpm/macros.php
 Summary:	%{pearname} - PHP Unix manual pages
 Name:		php-phpdocs-pman
-Version:	2012.01.14
-Release:	2
+Version:	2014.01.01
+Release:	1
 License:	Creative Commons Attribution 3.0
 Group:		Development/Languages/PHP
 Source0:	http://doc.php.net/get/%{pearname}-%{version}.tgz
-# Source0-md5:	7d602d7ec6d3a7cced70fe68954c314a
+# Source0-md5:	bf22cc8094a6341bb05806d6424a256a
 URL:		http://doc.php.net/package/pman/
 BuildRequires:	php-channel(doc.php.net)
 BuildRequires:	php-packagexml2cl
