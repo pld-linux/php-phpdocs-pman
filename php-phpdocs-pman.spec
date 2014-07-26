@@ -3,6 +3,8 @@
 %include	/usr/lib/rpm/macros.php
 Summary:	%{pearname} - PHP Unix manual pages
 Name:		php-phpdocs-pman
+# To check for new versions:
+# $ pear remote-info doc.php.net/pman
 Version:	2014.01.01
 Release:	1
 License:	Creative Commons Attribution 3.0
