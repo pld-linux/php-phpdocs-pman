@@ -5,12 +5,12 @@ Summary:	%{pearname} - PHP Unix manual pages
 Name:		php-phpdocs-pman
 # To check for new versions:
 # $ pear remote-info doc.php.net/pman
-Version:	2014.01.01
+Version:	2015.06.19
 Release:	1
 License:	Creative Commons Attribution 3.0
 Group:		Development/Languages/PHP
 Source0:	http://doc.php.net/get/%{pearname}-%{version}.tgz
-# Source0-md5:	bf22cc8094a6341bb05806d6424a256a
+# Source0-md5:	70ba6741354770cc4996873f997ccd4f
 URL:		http://doc.php.net/package/pman/
 BuildRequires:	php-channel(doc.php.net)
 BuildRequires:	php-packagexml2cl
