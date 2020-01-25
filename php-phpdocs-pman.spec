@@ -1,6 +1,5 @@
 %define		status		stable
 %define		pearname	pman
-%include	/usr/lib/rpm/macros.php
 Summary:	%{pearname} - PHP Unix manual pages
 Name:		php-phpdocs-pman
 # To check for new versions:
